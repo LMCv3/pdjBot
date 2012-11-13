@@ -260,7 +260,7 @@ phantom.create(function(ph) {
                     });
                   break;
                   case 'smifffacts':
-                    $.getJSON('https://raw.github.com/LMCv3/pdjBot/master/smiff.json', function(data) {
+                    $.getJSON('http://www.corsproxy.com/raw.github.com/LMCv3/pdjBot/master/smiff.json', function(data) {
                       if (data.facts) {
                         var len = data.facts.length;
                         if (len > 0) {
